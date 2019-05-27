@@ -1,10 +1,14 @@
-# github-android-collect
-收集一些用的最多的android库
-
 ## 简介
 希望github出个star分组编辑功能；面对自己成百上千的star项目，确实不太好管理。这个项目主要用来收集我自己常用的android库，一般来说都是stars>3000的项目，并且做了个简要的分类，尽量避免相同功能的库。
-
-## 更多的Android库
+## 目录
+- [更多参考](#更多)
+- [kotlin](#kotlin)
+- [常用](#常用)
+- [提高](#提高)
+- [UI](#视图)
+- [网络](#网络)
+- [功能](#功能)
+## 更多
 - [android-open-project](https://github.com/Trinea/android-open-project)
 - [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
 - [awesome-android](https://github.com/JStumpp/awesome-android)
@@ -22,24 +26,43 @@
 6. [dagger](https://github.com/google/dagger)
 6. [EventBus](https://github.com/greenrobot/EventBus)
 7. [AndPermission](https://github.com/yanzhenjie/AndPermission)
+8. [ARouter](https://github.com/alibaba/ARouter)
 
 ## 提高
 1. [Android开发规范](https://github.com/Blankj/AndroidStandardDevelop)
 2. [Android官方App架构](https://github.com/googlesamples/android-architecture)
 3. [MVP](https://github.com/sockeqwe/mosby)
 4. [AndroidStudioTemplates](https://github.com/WanAndroid/AndroidStudioTemplates)
+5. [AndroidDevTools](https://github.com/inferjay/AndroidDevTools)
 
+## 进阶
+1. [AndFix(热修复框架)](https://github.com/alibaba/AndFix)
+2. [android-open-source-project-analysis](https://github.com/sucese/android-open-source-project-analysis)
+3. [开源项目解析](https://github.com/android-cn/android-open-project-analysis)
+4. [Android架构合集](https://github.com/CameloeAnthony/AndroidArchitectureCollection)
+5. [android-architecture](https://github.com/googlesamples/android-architecture)
+## 网络
+1. [okhttp](https://github.com/square/okhttp)
+2. [Retrofit](https://github.com/square/retrofit)
+1. [AgentWeb](https://github.com/Justson/AgentWeb)
+4. [Gson](https://github.com/google/gson)
+5. [fastjson](https://github.com/alibaba/fastjson)
+## 图片
+1. [Glide](https://github.com/bumptech/glide)
+2. [glide-transformations](https://github.com/wasabeef/glide-transformations)
+3. [Compressor](https://github.com/zetbaitsu/Compressor)
+4. [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
-## UI相关
+## 视图
 1. [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 4. [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
 5. [ImmersionBar](https://github.com/gyf-dev/ImmersionBar)
+6. [subsampling-scale-image-view](https://github.com/davemorrissey/subsampling-scale-image-view)
 5. [flexbox-layout](https://github.com/google/flexbox-layout)
 6. [FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
 5. [AndroidSwipeLayout](https://github.com/daimajia/AndroidSwipeLayout)
 6. [vlayout](https://github.com/alibaba/vlayout)
 4. [FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
-5. [StatusBarUtil](https://github.com/laobie/StatusBarUtil)
 6. [Android-skin-support](https://github.com/ximsfei/Android-skin-support)
 
 
@@ -58,6 +81,8 @@
 #### Material
 - [material-dialogs](https://github.com/afollestad/material-dialogs)
 - [MaterialRatingBar](https://github.com/DreaminginCodeZH/MaterialRatingBar)
+- [MaterialDesignSamples](https://github.com/pinguo-zhouwei/MaterialDesignSamples)
+- 
 #### view
 1. [PhotoView](https://github.com/chrisbanes/PhotoView)
 2. [CircleImageView](https://github.com/hdodenhof/CircleImageView)
@@ -78,29 +103,22 @@
 - [SlantedTextView](https://github.com/HeZaiJin/SlantedTextView)
 - [ExpandableTextView](https://github.com/Manabu-GT/ExpandableTextView)
 - [autofittextview](https://github.com/grantland/android-autofittextview)
-## 图片
-1. [Glide](https://github.com/bumptech/glide)
-2. [glide-transformations](https://github.com/wasabeef/glide-transformations)
+
 ## 动画
 1. [MaterialAnimations](https://github.com/lgvalle/Material-Animations)
 2. [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)
 
-## 网络
-1. [okhttp](https://github.com/square/okhttp)
-2. [Retrofit](https://github.com/square/retrofit)
-1. [AgentWeb](https://github.com/Justson/AgentWeb)
-4. [Gson](https://github.com/google/gson)
-5. [fastjson](https://github.com/alibaba/fastjson)
+
 
 ## 数据库
 1. [LitePal(数据库框架)](https://github.com/LitePalFramework/LitePal)
 8. [Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
 ## 功能
 1. [zxing](https://github.com/zxing/zxing)
-2. [AndroidLocalizationer](https://github.com/westlinkin/AndroidLocalizationer)
+2. [zxing-android-embedded](https://github.com/journeyapps/zxing-android-embedded)
+3. [适配方案](https://github.com/JessYanCoding/AndroidAutoSize)
 
-## 进阶
-1. [AndFix(热修复框架)](https://github.com/alibaba/AndFix)
+
 ## 音频
 1. [ijkplayer](https://github.com/Bilibili/ijkplayer)
 2. [GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
@@ -115,12 +133,26 @@
 - [material-design-icons](https://github.com/google/material-design-icons)
  
 ## 学习
+- [JavaGuide(Java学习+面试指南)](https://github.com/Snailclimb/JavaGuide) 40000+
+- [awesome-java-leetcode](https://github.com/Blankj/awesome-java-leetcode)
 - [crash-course-computer-science-chinese](https://github.com/1c7/crash-course-computer-science-chinese)
 - [android-training-course-in-chinese](https://github.com/kesenhoo/android-training-course-in-chinese)
 - [free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
+- [LearningNotes](https://github.com/francistao/LearningNotes)
+- [android-best-practices](https://github.com/futurice/android-best-practices)
+- [Android学习笔记](https://github.com/GcsSloop/AndroidNote)
 
+## 优化
+- [pandora](https://github.com/whataa/pandora) 调试app
+- [Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
 ## kotlin
-
+- [kotlin](https://github.com/JetBrains/kotlin)
+- [kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines)
+- [anko](https://github.com/Kotlin/anko)
+- [RxKotlin](https://github.com/ReactiveX/RxKotlin)
+- [android-ktx](https://github.com/android/android-ktx)
+- [kotlin视频教程](https://github.com/enbandari/Kotlin-Tutorials)
+- [kotlin_tips](https://github.com/heimashi/kotlin_tips)
 #### 项目实战
 - [WanAndroidClient](https://github.com/wangzailfm/WanAndroidClient)
 - [WanAndroid](https://github.com/iceCola7/WanAndroid)
