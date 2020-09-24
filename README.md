@@ -2,12 +2,15 @@
 希望github出个star分组编辑功能；面对自己成百上千的star项目，确实不太好管理。这个项目主要用来收集我自己常用的android库，一般来说都是stars>3000的项目，并且做了个简要的分类，尽量避免相同功能的库。
 ## 目录
 - [更多参考](#更多)
-- [kotlin](#kotlin)
 - [常用](#常用)
 - [提高](#提高)
-- [UI](#视图)
+- [UI](#ui)
+- [音视频](#音视频)
 - [网络](#网络)
 - [功能](#功能)
+- [第三方平台](#第三方平台)
+- [kotlin](#kotlin)
+- [项目](#项目实战)
 ## 更多
 - [android-open-project](https://github.com/Trinea/android-open-project)
 - [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
@@ -16,16 +19,18 @@
 
 ## 常用
 1. [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) 
+2. [Retrofit](https://github.com/square/retrofit)
+4. [Gson](https://github.com/google/gson)
 2. [LeakCanary](https://github.com/square/leakcanary)
 4. [RxJava](https://github.com/ReactiveX/RxJava)
 2. [RxAndroid](https://github.com/ReactiveX/RxAndroid)
 3. [RxPermissions](https://github.com/tbruyelle/RxPermissions)
+4. [PermissionsDispatcher](https://github.com/permissions-dispatcher/PermissionsDispatcher)
 4. [RxBinding](https://github.com/JakeWharton/RxBinding)
 5. [butterknife](https://github.com/JakeWharton/butterknife)
 5. [logger](https://github.com/orhanobut/logger)
 6. [dagger](https://github.com/google/dagger)
 6. [EventBus](https://github.com/greenrobot/EventBus)
-7. [AndPermission](https://github.com/yanzhenjie/AndPermission)
 8. [ARouter](https://github.com/alibaba/ARouter)
 
 ## 提高
@@ -34,8 +39,6 @@
 3. [MVP](https://github.com/sockeqwe/mosby)
 4. [AndroidStudioTemplates](https://github.com/WanAndroid/AndroidStudioTemplates)
 5. [AndroidDevTools](https://github.com/inferjay/AndroidDevTools)
-
-## 进阶
 1. [AndFix(热修复框架)](https://github.com/alibaba/AndFix)
 2. [android-open-source-project-analysis](https://github.com/sucese/android-open-source-project-analysis)
 3. [开源项目解析](https://github.com/android-cn/android-open-project-analysis)
@@ -53,7 +56,7 @@
 3. [Compressor](https://github.com/zetbaitsu/Compressor)
 4. [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 
-## 视图
+## UI
 1. [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 4. [SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
 5. [ImmersionBar](https://github.com/gyf-dev/ImmersionBar)
@@ -77,12 +80,11 @@
 - [MaterialViewPager](https://github.com/florent37/MaterialViewPager)
 - [UltraViewPager](https://github.com/alibaba/UltraViewPager)
 
-
 #### Material
 - [material-dialogs](https://github.com/afollestad/material-dialogs)
 - [MaterialRatingBar](https://github.com/DreaminginCodeZH/MaterialRatingBar)
 - [MaterialDesignSamples](https://github.com/pinguo-zhouwei/MaterialDesignSamples)
-- 
+
 #### view
 1. [PhotoView](https://github.com/chrisbanes/PhotoView)
 2. [CircleImageView](https://github.com/hdodenhof/CircleImageView)
@@ -108,22 +110,33 @@
 1. [MaterialAnimations](https://github.com/lgvalle/Material-Animations)
 2. [AndroidViewAnimations](https://github.com/daimajia/AndroidViewAnimations)
 
+## 音视频
+1. [ijkplayer](https://github.com/Bilibili/ijkplayer)
+2. [GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
+2. [JiaoZiVideoPlayer](https://github.com/lipangit/JiaoZiVideoPlayer)
+3. [android-UniversalMusicPlayer](https://github.com/googlesamples/android-UniversalMusicPlayer)
+4. [FFmpeg](https://github.com/FFmpeg/FFmpeg)
+4. [RxFFmpeg](https://github.com/microshow/RxFFmpeg)
+4. [FFmpeg-Android](https://github.com/yangfeng1994/FFmpeg-Android)
+5. [FFmpegAndroid](https://github.com/xufuji456/FFmpegAndroid)
 
+#### 视频处理
+- [视频录制和压缩](https://github.com/mabeijianxi/small-video-record)
 
 ## 数据库
 1. [LitePal(数据库框架)](https://github.com/LitePalFramework/LitePal)
 8. [Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
+9. [greenDAO](https://github.com/greenrobot/greenDAO)
+
 ## 功能
 1. [zxing](https://github.com/zxing/zxing)
 2. [zxing-android-embedded](https://github.com/journeyapps/zxing-android-embedded)
 3. [适配方案](https://github.com/JessYanCoding/AndroidAutoSize)
 
+## 第三方平台
+- [友盟多功能demo](https://github.com/umeng/MultiFunctionAndroidDemo)
+- [第三方平台集成](https://github.com/justauth/JustAuth)
 
-## 音频
-1. [ijkplayer](https://github.com/Bilibili/ijkplayer)
-2. [GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
-2. [JiaoZiVideoPlayer](https://github.com/lipangit/JiaoZiVideoPlayer)
-3. [android-UniversalMusicPlayer](https://github.com/googlesamples/android-UniversalMusicPlayer)
 
 ## 其他
  
@@ -153,6 +166,16 @@
 - [android-ktx](https://github.com/android/android-ktx)
 - [kotlin视频教程](https://github.com/enbandari/Kotlin-Tutorials)
 - [kotlin_tips](https://github.com/heimashi/kotlin_tips)
-#### 项目实战
+
+## 项目实战
 - [WanAndroidClient](https://github.com/wangzailfm/WanAndroidClient)
 - [WanAndroid](https://github.com/iceCola7/WanAndroid)
+- [WanAndroid_JetpackMvvm](https://github.com/hegaojian/JetpackMvvm)
+#### 待整理
+- [极客日报](https://github.com/codeestX/GeekNews)
+- [仿开眼视频](https://github.com/VIPyinzhiwei/Eyepetizer)
+- [七牛短视频](https://github.com/pili-engineering/PLDroidShortVideo)
+- [音乐播放器](https://github.com/caiyonglong/MusicLake)
+- [仿知音漫客APP](https://github.com/LinYaoTian/Q_Comic)
+- [文本翻译器](https://github.com/devallever/TranslationTextOpenSource)
+
